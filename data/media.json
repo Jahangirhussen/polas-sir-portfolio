@@ -1,0 +1,6 @@
+[
+  { "type": "Newspaper", "publication": "The Daily Star", "date": "23 August 2026", "headline": "Professor Dr. Polas discusses the future of AI and education", "description": "A feature discussing emerging technologies, education and the future of research.", "category": "Research", "url": "#", "featured": true },
+  { "type": "Interview", "publication": "Channel Placeholder", "date": "March 2025", "headline": "In conversation on sustainable entrepreneurship", "description": "A short interview on green innovation and business research.", "category": "Interview", "url": "#", "featured": false },
+  { "type": "Magazine", "publication": "Business Review", "date": "January 2024", "headline": "Rethinking research methodology in social science", "description": "An editorial contribution on doctoral research practices.", "category": "Opinion", "url": "#", "featured": false },
+  { "type": "Online News", "publication": "News Portal", "date": "2023", "headline": "Blockchain and green economy: a researcher's view", "description": "Commentary on emerging technology and sustainability.", "category": "Technology", "url": "#", "featured": false }
+]

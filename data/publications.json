@@ -1,0 +1,711 @@
+{
+  "author": "Mohammad Rashed Hasan Polas (Jahangir Hussen)",
+  "metrics": {
+    "citations_all": 1801,
+    "citations_since_2021": 1733,
+    "h_index_all": 21,
+    "h_index_since_2021": 21,
+    "i10_index_all": 39,
+    "i10_index_since_2021": 38
+  },
+  "publications": [
+    {
+      "title": "Knowledge management practices and green innovation in SMES: the role of environmental awareness towards environmental sustainability",
+      "authors": "MRH Polas, MI Tabash, A Bhattacharjee, GA Dávila",
+      "venue": "International Journal of Organizational Analysis 31 (5), 1601-1622",
+      "year": 2023,
+      "citations": 187,
+      "type": "journal"
+    },
+    {
+      "title": "Artificial intelligence, blockchain technology, and risk-taking behavior in the 4.0 IR metaverse era: evidence from Bangladesh-based SMEs",
+      "authors": "MRH Polas, AA Jahanshahi, AI Kabir, ASM Sohel-Uz-Zaman, AR Osman, et al.",
+      "venue": "Journal of Open Innovation: Technology, Market, and Complexity 8 (3), 168",
+      "year": 2022,
+      "citations": 171,
+      "type": "journal",
+      "doi": "10.3390/joitmc8030168"
+    },
+    {
+      "title": "Technology and entrepreneurial marketing decisions during COVID-19",
+      "authors": "MRH Polas, V Raju",
+      "venue": "Global Journal of Flexible Systems Management 22 (2), 95-112",
+      "year": 2021,
+      "citations": 160,
+      "type": "journal",
+      "doi": "10.1007/s40171-021-00262-0"
+    },
+    {
+      "title": "Blockchain technology as a game changer for green innovation: Green entrepreneurship as a roadmap to green economic sustainability in Peru",
+      "authors": "MRH Polas, AI Kabir, ASM Sohel-Uz-Zaman, R Karim, MI Tabash",
+      "venue": "Journal of Open Innovation: Technology, Market, and Complexity 8 (2), 62",
+      "year": 2022,
+      "citations": 112,
+      "type": "journal",
+      "doi": "10.3390/joitmc8020062"
+    },
+    {
+      "title": "Rural women characteristics and sustainable entrepreneurial intention: a road to economic growth in Bangladesh",
+      "authors": "MRH Polas, V Raju, M Muhibbullah, MI Tabash",
+      "venue": "Journal of Enterprising Communities: People and Places in the Global Economy",
+      "year": 2022,
+      "citations": 109,
+      "type": "journal",
+      "doi": "10.1108/jec-10-2020-0183"
+    },
+    {
+      "title": "Customer's revisit intention: Empirical evidence on Gen‐Z from Bangladesh towards halal restaurants",
+      "authors": "MRH Polas, V Raju, SM Hossen, AM Karim, MI Tabash",
+      "venue": "Journal of Public Affairs 22 (3), e2572",
+      "year": 2022,
+      "citations": 103,
+      "type": "journal",
+      "doi": "10.1002/pa.2572"
+    },
+    {
+      "title": "Common method bias in social and behavioral research: Strategic solutions for quantitative research in the doctoral research",
+      "authors": "MRH Polas",
+      "venue": "Journal of Comprehensive Business Administration Research",
+      "year": 2025,
+      "citations": 92,
+      "type": "journal"
+    },
+    {
+      "title": "Empowering students for cybersecurity awareness management in the emerging digital era: the role of cybersecurity attitude in the 4.0 industrial revolution era",
+      "authors": "B Ahamed, MRH Polas, AI Kabir, ASM Sohel-Uz-Zaman, AA Fahad, et al.",
+      "venue": "Sage Open 14 (1), 21582440241228920",
+      "year": 2024,
+      "citations": 54,
+      "type": "journal",
+      "doi": "10.1177/21582440241228920"
+    },
+    {
+      "title": "Rural entrepreneurs behaviors towards green innovation: Empirical evidence from Bangladesh",
+      "authors": "MRH Polas, AI Kabir, AA Jahanshahi, ASM Sohel-Uz-Zaman, R Karim, et al.",
+      "venue": "Journal of Open Innovation: Technology, Market, and Complexity 9 (1), 100020",
+      "year": 2023,
+      "citations": 54,
+      "type": "journal"
+    },
+    {
+      "title": "Demographic factors influence on the tendency to become entrepreneur: Estimating the antecedents and consequences of entrepreneurial tendency",
+      "authors": "MRH Polas, A Bhattacharjee",
+      "venue": "International Journal of Management and Sustainability",
+      "year": 2019,
+      "citations": 47,
+      "type": "journal",
+      "doi": "10.18488/journal.11.2019.81.48.60"
+    },
+    {
+      "title": "How does tourist perception lead to tourist hesitation? Empirical evidence from Bangladesh",
+      "authors": "MRH Polas, RK Saha, MI Tabash",
+      "venue": "Environment, Development and Sustainability 24 (3), 3659-3686",
+      "year": 2022,
+      "citations": 41,
+      "type": "journal",
+      "doi": "10.1007/s10668-021-01581-z"
+    },
+    {
+      "title": "An exploration of COVID-19 pandemic and its consequences on FMCG industry in Bangladesh",
+      "authors": "MI Hossain, MRH Polas, MM Rahman, T Islam, Y Jamadar",
+      "venue": "Journal of Management Info 7 (3), 145-155",
+      "year": 2020,
+      "citations": 41,
+      "type": "journal",
+      "doi": "10.31580/jmi.v7i3.1484"
+    },
+    {
+      "title": "Islamic branding as a tool for customer retention: Antecedents and consequences of islamic brand loyalty",
+      "authors": "MRH Polas, AA Jahanshahi, ML Rahman",
+      "venue": "International Journal of Islamic Marketing and Branding 3 (1), 1-14",
+      "year": 2018,
+      "citations": 35,
+      "type": "journal",
+      "doi": "10.1504/ijimb.2018.10012708"
+    },
+    {
+      "title": "The effects of individual characteristics on women intention to become social entrepreneurs?",
+      "authors": "MRH Polas, A Afshar Jahanshahi",
+      "venue": "Journal of Public Affairs 21 (2), e2204",
+      "year": 2021,
+      "citations": 33,
+      "type": "journal",
+      "doi": "10.1002/pa.2204"
+    },
+    {
+      "title": "Consumers' sustainable online purchase behaviour during Covid-19 pandemic: The role of relational benefit and site commitment",
+      "authors": "MRH Polas, MI Tabash, A Afshar Jahanshahi, B Ahamed",
+      "venue": "Foresight 24 (3-4), 476-503",
+      "year": 2022,
+      "citations": 32,
+      "type": "journal"
+    },
+    {
+      "title": "Customer care service management is moving forward to achieve sustainable customer retention in every industry. Does it play a role to increase brand retention",
+      "authors": "A Afshar, RH Polas, M Imtiaz, A Saboor",
+      "venue": "International Journal of Management 8 (2), 88-97",
+      "year": 2019,
+      "citations": 31,
+      "type": "journal"
+    },
+    {
+      "title": "The impact of waiting time towards customers satisfaction in fast food establishments: Evidence from Bangladesh",
+      "authors": "MRH Polas, MM Rahman, MA Miah, MMA Hayash",
+      "venue": "IOSR Journal of Business and Management 20 (5), 11-21",
+      "year": 2018,
+      "citations": 29,
+      "type": "journal"
+    },
+    {
+      "title": "A journey from traditional supply chain processes to Sustainability‐Oriented blockchain supply chain: the critical role of organizational capabilities",
+      "authors": "MRH Polas, A Afshar Jahanshahi, ME Islam, AI Kabir, et al.",
+      "venue": "Business Strategy and the Environment 34 (3), 3522-3543",
+      "year": 2025,
+      "citations": 28,
+      "type": "journal",
+      "doi": "10.1002/bse.4159"
+    },
+    {
+      "title": "Antecedent and consequences of risk perception on tourist decision making towards the sustainable medical tourism development in Bangladesh",
+      "authors": "MI Hossain",
+      "venue": "Journal of Tourism Management Research",
+      "year": 2019,
+      "citations": 28,
+      "type": "journal"
+    },
+    {
+      "title": "Moving toward digital transformation by force: Students' preferences, happiness, and mental health",
+      "authors": "A Afshar Jahanshahi, MRH Polas",
+      "venue": "Electronics 12 (10), 2187",
+      "year": 2023,
+      "citations": 26,
+      "type": "journal",
+      "doi": "10.3390/electronics12102187"
+    },
+    {
+      "title": "Financial and non-financial disclosures on sustainable development: The mediating role of environmental accounting disclosure practices",
+      "authors": "MSA Mondal, N Akter, SJ Moni, MRH Polas",
+      "venue": "International Journal of Financial, Accounting, and Management 5 (3), 387-406",
+      "year": 2023,
+      "citations": 22,
+      "type": "journal"
+    },
+    {
+      "title": "Adoption of Artificial Intelligence in retail: Examining the impact of technological and organizational factors on customer retention and loyalty",
+      "authors": "I Zerine, YA Biswas, MZ Doha, HM Meghla, MRH Polas",
+      "venue": "Annals of Management and Organization Research (AMOR) 6 (3), 287-302",
+      "year": 2025,
+      "citations": 21,
+      "type": "journal",
+      "doi": "10.35912/amor.v6i3.2548"
+    },
+    {
+      "title": "Factors influencing the environmental accounting disclosure practices for sustainable development: A systematic literature review",
+      "authors": "MSA Mondal, N Akter, MRH Polas",
+      "venue": "International Journal of Financial, Accounting, and Management 5 (2), 195-213",
+      "year": 2023,
+      "citations": 21,
+      "type": "journal"
+    },
+    {
+      "title": "Service quality dimensions (SERVQUAL) and customer satisfaction towards motor ride-sharing services: Evidence from Bangladesh",
+      "authors": "S Sikder, MM Rana, MRH Polas",
+      "venue": "Annals of Management and Organization Research 3 (2), 97-113",
+      "year": 2021,
+      "citations": 20,
+      "type": "journal"
+    },
+    {
+      "title": "Corporate Social Responsibility (CSR) practices of financial institution in Bangladesh: the case of United Commercial Bank",
+      "authors": "S Afrin, F Sehreen, MRH Polas, R Sharin",
+      "venue": "Journal of Sustainable Tourism and Entrepreneurship 2 (2), 69-82",
+      "year": 2020,
+      "citations": 17,
+      "type": "journal",
+      "doi": "10.35912/joste.v2i2.539"
+    },
+    {
+      "title": "Assessing the Perceived Value of Customers for being Satisfied towards the Sustainability of Hypermarket in Malaysia",
+      "authors": "RH Polas, M Imtiaz, A Saboor, N Hossain, MA Javed, L Nianyu",
+      "venue": "International Journal of Business 6 (5), 248-263",
+      "year": 2019,
+      "citations": 17,
+      "type": "journal"
+    },
+    {
+      "title": "Does Green Entrepreneurial Intention Persuade an Individual to Contribute to the Sustainable Green Economy?",
+      "authors": "MRH Polas, MI Hossain, MI Tabash, AM Karim, A Dad, OT San",
+      "venue": "Talent Development & Excellence 12 (2s), 1142-1157",
+      "year": 2020,
+      "citations": 16,
+      "type": "journal"
+    },
+    {
+      "title": "Is bitcoin halal or haram in the Islamic banking and finance? An overview",
+      "authors": "MRH Polas, M Muhibbullah, A Bhattacharjee",
+      "venue": "Journal of Economics, Business and Market Research 1 (2), 96-104",
+      "year": 2020,
+      "citations": 16,
+      "type": "journal"
+    },
+    {
+      "title": "Sample selection in social science research: A holistic approach to methodological rigor",
+      "authors": "MR Hasan Polas",
+      "venue": "Journal of Social Research Methodology 18 (6), 669-684",
+      "year": 2015,
+      "citations": 16,
+      "type": "journal",
+      "doi": "10.18282/i-s740"
+    },
+    {
+      "title": "Workplace adversity and the dual impact of gender on employee intentions to leave and pursue social entrepreneurship",
+      "authors": "MI Rivas Mendoza, A Afshar Jahanshahi, LA Pulido Joo, MRH Polas, et al.",
+      "venue": "Asia-Pacific Journal of Business Administration 18 (1), 84-112",
+      "year": 2026,
+      "citations": 15,
+      "type": "journal",
+      "doi": "10.1108/APJBA-04-2024-0176"
+    },
+    {
+      "title": "The micro-foundations of sustainable entrepreneurship: the role of individuals' pro-social identity and organisational pro-social identity",
+      "authors": "AA Jahanshahi, A Bhattacharjee, MRH Polas",
+      "venue": "International Journal of Productivity and Quality Management 40 (2), 149-170",
+      "year": 2023,
+      "citations": 15,
+      "type": "journal"
+    },
+    {
+      "title": "Challenges and prospects of tourism in Cox's bazar: An empirical study",
+      "authors": "A Bhattacharjee, MRH Polas, ML Rahman",
+      "venue": "Journal of Business and Technology (Dhaka) 13 (1), 63-82",
+      "year": 2018,
+      "citations": 14,
+      "type": "journal"
+    },
+    {
+      "title": "The effects of broadband service quality on user's value and loyalty: A study on foreign customers in Malaysia",
+      "authors": "A Bhattacharjee, M Rashedhasanpolas, M Moin",
+      "venue": "IOSR Journal of Business and Management 20 (2), 48-58",
+      "year": 2018,
+      "citations": 14,
+      "type": "journal"
+    },
+    {
+      "title": "Do Service Quality Dimensions Increase the Customer Brand Relationship among Gen Z? The Mediation Role of Customer Perception between the Service Quality Dimensions (SERVQUAL)",
+      "authors": "MRH Polas, MDKI Juman, AM Karim, MI Tabash, MI Hossain",
+      "venue": "International Journal of Advanced Science and Technology 29 (4), 1050-1070",
+      "year": 2020,
+      "citations": 13,
+      "type": "journal"
+    },
+    {
+      "title": "Publish or perish! Challenges and strategies in publishing research papers in top tier academic journals",
+      "authors": "MRH Polas",
+      "venue": "Journal of Business & Management 2 (1), 11-22",
+      "year": 2024,
+      "citations": 12,
+      "type": "journal"
+    },
+    {
+      "title": "Intention to use blockchain technologies: Evidence from two regions—ASEAN and Middle-East",
+      "authors": "PC Lai, EBH Toh, MRH Polas, MI Tabash",
+      "venue": "International Journal of Innovation and Technology Management 20 (08), 2350049",
+      "year": 2023,
+      "citations": 12,
+      "type": "journal"
+    },
+    {
+      "title": "Employee motivation as an indicator of the desire to continue working: evidence from SMEs in Bangladesh",
+      "authors": "MRH Polas, M Muhibbullah, R Afroz, MN Sadekin",
+      "venue": "International Journal of Management Practice 14 (3), 343-367",
+      "year": 2021,
+      "citations": 12,
+      "type": "journal",
+      "doi": "10.1504/ijmp.2021.115110"
+    },
+    {
+      "title": "Understanding behavioral intentions to use cryptocurrency for the future of digital finance: Evidence from Bangladesh",
+      "authors": "I Zerine, YA Biswas, Z Doha, HM Meghla, MRH Polas",
+      "venue": "Journal of Comprehensive Business Administration Research 3 (1), 28-38",
+      "year": 2026,
+      "citations": 11,
+      "type": "journal"
+    },
+    {
+      "title": "The future of artificial intelligence in education 4.0: how to go green in the post-COVID-19 context",
+      "authors": "MRH Polas, AA Jahanshahi, B Ahamed, MOF Molla",
+      "venue": "Technology management and its social impact on education, 1-20",
+      "year": 2023,
+      "citations": 10,
+      "type": "book"
+    },
+    {
+      "title": "Artificial intelligence and blockchain technology in the 4.0 IR metaverse Era: Implications, opportunities, and future directions",
+      "authors": "MRH Polas, B Ahamed, MM Rana",
+      "venue": "Strategies and opportunities for technology in the metaverse world, 13-33",
+      "year": 2023,
+      "citations": 8,
+      "type": "book"
+    },
+    {
+      "title": "Empowering workers' involvement: Unveiling the dynamics of communication, recognition, productivity, and decision-making in the RMG sector",
+      "authors": "MR Hawlader, MM Rana, A Kalam, MRH Polas",
+      "venue": "Journal of Sustainable Tourism and Entrepreneurship 3 (3), 195-215",
+      "year": 2022,
+      "citations": 8,
+      "type": "journal"
+    },
+    {
+      "title": "Islamic finance, Islamic fintech, and digital currency in the digital transformation era: The role of blockchain technology in Industry 4.0",
+      "authors": "MRH Polas, NM Tahiya, AI Kabir, ASM Sohel-Uz-Zaman, R Biswas",
+      "venue": "Digitalization of Islamic Finance, 77-116",
+      "year": 2025,
+      "citations": 7,
+      "type": "book",
+      "doi": "10.4018/979-8-3693-5653-1.ch004"
+    },
+    {
+      "title": "Towards a greener horizon: Unravelling the links between environmental awareness, consumption values, and packaging in consumer decision-making",
+      "authors": "MRH Polas, AI Kabir, ASM Sohel-Uz-Zaman, S Sikder, A Al Fahad, et al.",
+      "venue": "IEEE Engineering Management Review",
+      "year": 2024,
+      "citations": 7,
+      "type": "journal",
+      "doi": "10.1109/EMR.2024.3438124"
+    },
+    {
+      "title": "Impact of Brand Loyalty on Improving Customer Retention – A Case Study on Tesco Malaysia",
+      "authors": "M Rashed Hasan Polas, Subrata Majumder, Mohammed Moin Uddin Reza",
+      "venue": "IOSR Journal of Business and Management",
+      "year": 2018,
+      "citations": 7,
+      "type": "journal"
+    },
+    {
+      "title": "Ethical decision-making practices in SMEs: the role of risk acceptance and confidence level",
+      "authors": "MRH Polas, MI Tabash, AA Jahanshahi, VGH Schmitt",
+      "venue": "International Journal of Business Governance and Ethics 16 (4), 437-462",
+      "year": 2022,
+      "citations": 6,
+      "type": "journal"
+    },
+    {
+      "title": "Role of advertising and service quality on tourism development in Bangladesh",
+      "authors": "MRH Polas, MMU Reza, S Rowza",
+      "venue": "IOSR Journal of Business and Management 19 (9), 77-86",
+      "year": 2017,
+      "citations": 6,
+      "type": "journal"
+    },
+    {
+      "title": "From theory to sustainable practice in social science research 4.0: Sampling, sample size, and ethical standards in doctoral research",
+      "authors": "MRH Polas",
+      "venue": "Improving doctoral education and research development for sustainability, 33-72",
+      "year": 2026,
+      "citations": 4,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-0225-6.ch002"
+    },
+    {
+      "title": "Valuing Teachers' Voices in Educational Reform: A Path to Achieving Global and National Sustainable Development Goals",
+      "authors": "ME Islam, MRH Polas, AA Jahanshahi, M Falahat",
+      "venue": "Institutes of higher education (IHE) and workforce collaboration for digital",
+      "year": 2025,
+      "citations": 4,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-0004-7.ch006"
+    },
+    {
+      "title": "Sustainability and AI in transnational higher education",
+      "authors": "ME Islam, MRH Polas, MM Rahman",
+      "venue": "Bridging Global Divides for Transnational Higher Education in the AI Era",
+      "year": 2025,
+      "citations": 4,
+      "type": "book"
+    },
+    {
+      "title": "Consideration of Workers' Opinion in the Decision-making Process in the RMG Sector: Evidence From Bangladesh",
+      "authors": "MR Hawlader, MM Rana, A Kalam, MRH Polas",
+      "venue": "Journal of Sustainable Tourism and Entrepreneurship 3 (1), 61-76",
+      "year": 2021,
+      "citations": 4,
+      "type": "journal"
+    },
+    {
+      "title": "Alternative Concern on the Remittance Increases Investments and Financial Sustainability",
+      "authors": "A Bhattacharjee, MRH Polas, M Ahmed, KF Eshita",
+      "venue": "IIUB Studies, 15",
+      "year": 2020,
+      "citations": 4,
+      "type": "journal"
+    },
+    {
+      "title": "Cybersecurity knowledge, social networking, and awareness among Gen Z university students",
+      "authors": "B Ahamed, MRH Polas, M Falahat, R Karim, MI Tabash",
+      "venue": "Discover Education 5 (1), 77",
+      "year": 2026,
+      "citations": 3,
+      "type": "journal",
+      "doi": "10.1007/s44217-025-01084-3"
+    },
+    {
+      "title": "Adoption of digital banking technologies by nascent entrepreneurs in the era of transformative business information systems",
+      "authors": "MRH Polas, AA Jahanshahi",
+      "venue": "International Journal of Business Information Systems 48 (2), 200-222",
+      "year": 2025,
+      "citations": 3,
+      "type": "journal"
+    },
+    {
+      "title": "Decoding demographics on Generation Z's post-pandemic shopping trends: E-commerce evolution 4.0, the digital shopper's dilemma, and tailoring strategies",
+      "authors": "K Islam, MRH Polas, K Parvin, T Akter",
+      "venue": "International Journal of Business, Management and Economics 4 (4), 360-380",
+      "year": 2023,
+      "citations": 3,
+      "type": "journal"
+    },
+    {
+      "title": "Leveraging green IoT and blockchain technology in the era of transformative digitalization: a green energy usage perspective",
+      "authors": "MRH Polas, RK Saha, B Ahamed",
+      "venue": "Handbook of Research on Social Impacts of E-Payment and Blockchain",
+      "year": 2022,
+      "citations": 3,
+      "type": "book"
+    },
+    {
+      "title": "Does Your Life Have Meaning? Social Entrepreneurial Intentions Through Dark and Light Triad Traits",
+      "authors": "A Afshar Jahanshahi, S Chalise, VGH Schmitt, IL Melchor Durán, et al.",
+      "venue": "Academy of Management Proceedings 2025 (1), 14001",
+      "year": 2025,
+      "citations": 2,
+      "type": "conference"
+    },
+    {
+      "title": "Understanding the dynamics of psychological contracts: creating a balanced psychological contract and exploring its motivational dimensions",
+      "authors": "ASM Sohel-Uz-Zaman, AI Kabir, MRH Polas, U Anjalin, A Al Fahad, et al.",
+      "venue": "Innovative Approaches for International Competitiveness Through Human Resources",
+      "year": 2025,
+      "citations": 2,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-1005-3.ch018"
+    },
+    {
+      "title": "Restructuring Human Capital Development Through the Adoption of Emerging Transformative Technologies",
+      "authors": "MRH Polas, SA Samikon, F Mehnaz, AI Kabir, M Hasan",
+      "venue": "Sustainability Through Green HRM and Performance Integration, 353-382",
+      "year": 2025,
+      "citations": 2,
+      "type": "book",
+      "doi": "10.4018/979-8-3693-5981-5.ch015"
+    },
+    {
+      "title": "Revolutionizing language learning beyond tradition in business education 4.0: Artificial intelligence-driven language learning towards english proficiency",
+      "authors": "MRH Polas, AA Jahanshahi, SA Samikon, T Akter, MAH Roky",
+      "venue": "Enhancing Education With Intelligent Systems and Data-Driven Instruction",
+      "year": 2024,
+      "citations": 2,
+      "type": "book"
+    },
+    {
+      "title": "Green AI for Sustainable Development in Circular Economies: Building a Low-Carbon, High-Impact Future in Industry 4.0 and 5.0",
+      "authors": "J Hussen, MRH Polas, T Momotaz, RA Eva, MNA Emu",
+      "venue": "Achieving the Sustainable Development Goals Through Green Innovation, 71-102",
+      "year": 2026,
+      "citations": 1,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-7694-3.ch003"
+    },
+    {
+      "title": "Employees perceptions and management support driving renewable energy adoption in the hospitality industry",
+      "authors": "R Al Karim, MRH Polas, R Karim, M Mehzabeen, AKMS Islam, M Falahat",
+      "venue": "Discover Sustainability 7 (1), 152",
+      "year": 2025,
+      "citations": 1,
+      "type": "journal",
+      "doi": "10.1007/s43621-025-02494-x"
+    },
+    {
+      "title": "FinTech Adoption in Emerging Economies: Integrating Technology Acceptance and Institutional Perspectives",
+      "authors": "ME Islam, MRH Polas",
+      "venue": "Electronic Journal of Business and Management 10 (4), 56-76",
+      "year": 2025,
+      "citations": 1,
+      "type": "journal"
+    },
+    {
+      "title": "The relationship between street food attributes, tourist attitude and satisfaction towards revisit intention: empirical evidence from Bangladesh",
+      "authors": "MRH Polas, AA Jahanshahi, MI Tabash",
+      "venue": "International Journal of Productivity and Quality Management 39 (2), 222-256",
+      "year": 2023,
+      "citations": 1,
+      "type": "journal"
+    },
+    {
+      "title": "Uncovering the Workplace Violence and Intention to Leave Among Women Employees: Evidence from Bangladesh",
+      "authors": "MRH Polas, A Kalam, MM Rana, T Akter",
+      "venue": "Bangladesh Journal of Administration and Management 34 (02), 77-97",
+      "year": 2022,
+      "citations": 1,
+      "type": "journal"
+    },
+    {
+      "title": "Why we intend to act for good: Life purpose as the bridge from light and dark personality to social entrepreneurial intention",
+      "authors": "AA Jahanshahi, S Chalise, VGH Schmitt, IL Melchor-Duran, et al.",
+      "venue": "Journal of Environmental Psychology, 103121",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "The NN‑UDP Framework: A Unified Protocol for Normality Testing, Non-Response Bias, and Estimator Selection in CB-SEM and PLS-SEM",
+      "authors": "MRH Polas",
+      "venue": "Review of Economics, Finance & Business 1 (1), 54-64",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.65826/REFB.1.1.2026.12"
+    },
+    {
+      "title": "The Polas Methodological Fit Framework: A Unified Model for Selecting Research Methods in Social Science Research",
+      "authors": "MRH Polas",
+      "venue": "Human Social Review 1 (1), 49-68",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "Green human resource management and green innovation as drivers of environmental performance in readymade garment firms",
+      "authors": "MR Hawlader, MRH Polas, A Das, MS Alam, SM Uddin, T Hasan, et al.",
+      "venue": "Discover Sustainability",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.1007/s43621-026-03741-5"
+    },
+    {
+      "title": "Eco-innovation through Strategic Integration: A Capability-based Approach to Green Transformation in SMEs",
+      "authors": "MR Hasan Polas, ME Islam, AI Kabir, ASM Sohel-Uz-Zaman, NE Juliet",
+      "venue": "Pertanika Journal of Social Sciences & Humanities 34 (2), 891",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "Toward sustainable agrientrepreneurship: behavioral drivers of AI adoption among rural agrientrepreneurs in emerging economies",
+      "authors": "MRH Polas, A Afshar Jahanshahi, ME Islam, M Falahat, V Raju, et al.",
+      "venue": "Journal of Enterprising Communities: People and Places in the Global Economy",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "The Role of Perceived Value in Renewable Energy Adoption: A Study of Rural Entrepreneurs in Bangladesh",
+      "authors": "MRH Polas, AI Kabir, ASM Sohel-Uz-Zaman, R Karim",
+      "venue": "Advances in Decision Sciences 30 (1), 297-335",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "Divergence and Convergence in the Bay of Bengal: India, Bangladesh, and the Pursuit of a Circular Space Economy Through BIMSTEC",
+      "authors": "MRH Polas, ME Islam, ASM Sohel-Uz-Zaman, A Al Fahad, MM Rana, et al.",
+      "venue": "Economic Cooperation, Bilateral and Regional Trade Agreements",
+      "year": 2026,
+      "citations": 0,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-1782-3.ch008"
+    },
+    {
+      "title": "Green Finance, Green Technology Adoption, and Low-Carbon Emissions: Pathways to Achieving the Sustainable Development Goals",
+      "authors": "MRH Polas, S Hossain, NM Tahiya",
+      "venue": "Green Finance Innovations and the Future of Sustainable Investing, 253-296",
+      "year": 2025,
+      "citations": 0,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-8287-6.ch008"
+    },
+    {
+      "title": "State-of-the-Art Review and Future Directions in Artificial Intelligence-Based Detection of Brain Tumors Using MRI Datasets",
+      "authors": "K Parvin, MRH Polas, OB Irikefe",
+      "venue": "Journal of Applied Technology and Innovation 9 (4), 53-73",
+      "year": 2025,
+      "citations": 0,
+      "type": "journal"
+    },
+    {
+      "title": "Total Quality Management as a Strategic Driver for Sustainable Performance: Evidence from Bangladesh's Banking Industry",
+      "authors": "N Islam, F Sehreen, MRH Polas",
+      "venue": "Electronic Journal of Business and Management 10 (3), 33-47",
+      "year": 2025,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.65136/ejbm.v10i3.20"
+    },
+    {
+      "title": "To the Moon and Beyond: How Nano-Entrepreneurs and Digital Currency Are Revolutionizing the Future of Business in Space!",
+      "authors": "MRH Polas, MS Alam, M Falahat, MT Husain, MOF Molla",
+      "venue": "FinTech and Robotics Advancements for Green Finance and Investment, 65-102",
+      "year": 2025,
+      "citations": 0,
+      "type": "book",
+      "doi": "10.4018/979-8-3373-0355-0.ch003"
+    },
+    {
+      "title": "Psychological Insights in Public Health Marketing From Past Failures to Future Success: Theoretical Frameworks and Applications",
+      "authors": "MRH Polas, AI Kabir, ASM Sohel-Uz-Zaman, MA Hanif, R Akhtar",
+      "venue": "Organizational Sociology in the Digital Age, 431-452",
+      "year": 2025,
+      "citations": 0,
+      "type": "book",
+      "doi": "10.4018/979-8-3693-7398-9.ch021"
+    },
+    {
+      "title": "Rural Women's Empowerment through Sustainable Entrepreneurial propensity in Bangladesh: From perceived opportunity aspect",
+      "authors": "MRH Polas, M Muhibbullah, MN Sadekin",
+      "venue": "International e-Conference on Enriching e-Learning Management for Global Sustainability",
+      "year": 2020,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "Study the Effects of Translucent Activities and Shadow Pricing on Agro-Commodities During COVID-19 Outbreak!",
+      "authors": "A Bhattacharjee, MRH Polas",
+      "venue": "International e-Conference on Impact of COVID19 on Global Business",
+      "year": 2020,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "When Financial Health Meets Social Responsibility? The Mediating Roles of Cash Holdings and Analyst Coverage in Corporate Philanthropy",
+      "authors": "MI Hossain, L Muhua, E Al-Fakir Al Rabab'a, MRH Polas, U Hameed",
+      "venue": "The Mediating Roles of Cash Holdings and Analyst Coverage in Corporate Philanthropy",
+      "year": null,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.2139/ssrn.7152519"
+    },
+    {
+      "title": "Barriers to Adoption of e-Governance in the Digital Transformative Era: The Mediating Role of Voluntariness towards Sustainability in Bangladesh",
+      "authors": "MRH Polas, B Ahamed, MA Hanif",
+      "venue": "",
+      "year": null,
+      "citations": 0,
+      "type": "journal"
+    }
+  ],
+  "coauthors": [
+    "Asghar Afshar Jahanshahi — Full Professor of Strategy and Innovation, IPADE Business School, Mexico",
+    "Prof. Dr. Valliappan Raju — Professor of FinTech & Researcher, GISMA University of Applied Sciences, Germany",
+    "Bulbul Ahamed — Professor of Computer Science & Engineering, Sonargaon University",
+    "Dr Md Muhibbullah — Lecturer, Polytechnic Institute Australia, Sydney",
+    "Asif Mahbub Karim, PhD — Professor, Deputy Vice Chancellor (R&D) and Dean, Binary Graduate School",
+    "Mohammed Moin Uddin Reza — Assistant Professor of Accounting, Bangladesh University of Professionals (BUP)",
+    "Dr. Sayed Mohibul Hossen — Professor, Department of Statistics, Mawlana Bhashani Science and Technology University",
+    "Ratul Kumar Saha — Assistant Professor, Institute of Business Administration, Jahangirnagar University",
+    "Rubyat Sharin — University of Technology Sydney",
+    "Dr Rafia Afroz — Professor, Department of Economics, IIUM",
+    "Md Nazmus Sadekin — Department of Economics, Mawlana Bhashani Science and Technology University",
+    "Md Lutfor Rahman — Associate Professor, International Standard University",
+    "Mohammad Rashed Hasan Polas — Assistant Professor, Asia Pacific University of Technology and Innovation, Malaysia"
+  ]
+}

@@ -1,0 +1,30 @@
+[data-theme="dark"] {
+  --bg-base: #0b0b12;
+  --bg-gradient-1: #14121f;
+  --bg-gradient-2: #1a1220;
+  --bg-gradient-3: #0f1a1f;
+
+  --text-primary: #f2f1f8;
+  --text-secondary: #c7c4da;
+  --text-muted: #8d8aa3;
+
+  --glass-bg: rgba(20, 18, 30, 0.45);
+  --glass-bg-strong: rgba(15, 13, 24, 0.92);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-inner: rgba(255, 255, 255, 0.18);
+  --glass-shadow: rgba(0, 0, 0, 0.5);
+  --glass-shadow-inner: rgba(255, 255, 255, 0.06);
+
+  --tint-lavender: rgba(124, 108, 240, 0.18);
+  --tint-blue: rgba(91, 141, 239, 0.16);
+  --tint-cyan: rgba(34, 211, 238, 0.12);
+  --tint-pink: rgba(236, 72, 153, 0.12);
+  --tint-peach: rgba(251, 146, 60, 0.1);
+
+  --accent-primary: #9b8cfc;
+  --accent-secondary: #7ba7ff;
+  --accent-tertiary: #f472b6;
+
+  --border-hairline: rgba(255, 255, 255, 0.08);
+  --card-border: rgba(155, 140, 252, 0.5);
+}

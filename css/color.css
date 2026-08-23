@@ -1,0 +1,30 @@
+:root {
+  --bg-base: #f4f2fb;
+  --bg-gradient-1: #eef2ff;
+  --bg-gradient-2: #fdf2f8;
+  --bg-gradient-3: #ecfeff;
+
+  --text-primary: #1c1b29;
+  --text-secondary: #4a4860;
+  --text-muted: #7b7892;
+
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-bg-strong: rgba(255, 255, 255, 0.88);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-border-inner: rgba(255, 255, 255, 0.85);
+  --glass-shadow: rgba(31, 38, 135, 0.15);
+  --glass-shadow-inner: rgba(255, 255, 255, 0.5);
+
+  --tint-lavender: rgba(196, 181, 253, 0.35);
+  --tint-blue: rgba(191, 219, 254, 0.35);
+  --tint-cyan: rgba(165, 243, 252, 0.3);
+  --tint-pink: rgba(251, 207, 232, 0.3);
+  --tint-peach: rgba(254, 215, 170, 0.25);
+
+  --accent-primary: #7c6cf0;
+  --accent-secondary: #5b8def;
+  --accent-tertiary: #ec4899;
+
+  --border-hairline: rgba(28, 27, 41, 0.08);
+  --card-border: rgba(124, 108, 240, 0.45);
+}

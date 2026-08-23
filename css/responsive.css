@@ -1,0 +1,75 @@
+/* ===== Tablet ===== */
+@media (max-width: 900px) {
+  .cards-grid > * { max-width: calc(50% - 11px) !important; }
+  .hero-grid { grid-template-columns: 1fr; text-align: center; }
+  .hero-actions { justify-content: center; }
+  .hero-socials { justify-content: center; }
+  .profile-glass { max-width: 320px; margin: 0 auto; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .node-ring { grid-template-columns: repeat(2, 1fr); }
+  .media-grid { grid-template-columns: 1fr; }
+  .media-card.featured { grid-column: span 1; }
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 640px) {
+  .container { padding: 0 16px; }
+  section { padding: 44px 0; }
+  .section-heading { margin-bottom: 24px; }
+  .hero { min-height: auto; padding: 120px 0 30px !important; }
+  .hero h1 { font-size: 28px; }
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions .btn { text-align: center; justify-content: center; }
+  .cards-grid > * { max-width: 100% !important; flex-basis: 100% !important; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .editorial-heading { font-size: 26px; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 26px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .footer-bottom span:last-child { margin-left: 0; }
+  .footer-bottom a { margin-left: 0; margin-right: 16px; }
+
+  .pub-card { grid-template-columns: 1fr; }
+  .pub-year { flex-direction: row; border-right: none; padding-right: 0; gap: 10px; }
+  .pub-actions { align-items: flex-start; }
+
+  .education-card { grid-template-columns: 1fr; }
+  .education-year-badge { width: fit-content; }
+
+  .employment-card { grid-template-columns: 6px 1fr; }
+
+  .node-ring { grid-template-columns: 1fr 1fr; }
+  .node-center { font-size: 14px; padding: 16px 22px; text-align: center; }
+
+  .flow { flex-direction: column; }
+  .flow-arrow { transform: rotate(90deg); }
+
+  .project-numbered { grid-template-columns: 1fr; }
+
+  .collab-selector { grid-template-columns: 1fr 1fr; }
+
+  .contact-block { padding: 22px 20px; }
+
+  #direct-contact .cards-grid,
+  #contact-form .cards-grid,
+  #academic-network .cards-grid { grid-template-columns: 1fr !important; }
+
+  .network-nodes { justify-content: center; }
+
+  .v-timeline { padding-left: 24px; }
+  .v-timeline-dot { left: -24px; }
+
+  .navbar { padding: 10px 14px; }
+  .navbar .logo { font-size: 14px; }
+  .nav-scholar-link { display: none; }
+
+  .float-email { bottom: 16px; right: 16px; }
+
+  #cursorFx { display: none; }
+}
+
+@media (max-width: 380px) {
+  .stats-grid { grid-template-columns: 1fr; }
+  .node-ring { grid-template-columns: 1fr; }
+  .collab-selector { grid-template-columns: 1fr; }
+}
