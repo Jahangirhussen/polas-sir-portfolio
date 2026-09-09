@@ -5,6 +5,7 @@
 return [
     'publications' => [
         'label' => 'Publications',
+        'title_field' => 'title',
         'fields' => [
             'title'     => ['label' => 'Title', 'type' => 'text', 'required' => true],
             'authors'   => ['label' => 'Authors', 'type' => 'text'],
@@ -17,6 +18,7 @@ return [
     ],
     'media' => [
         'label' => 'Media & Press',
+        'title_field' => 'headline',
         'fields' => [
             'type'        => ['label' => 'Media Type', 'type' => 'select', 'options' => ['Newspaper', 'Magazine', 'Interview', 'TV', 'Online News', 'Podcast']],
             'publication' => ['label' => 'Publication / Source', 'type' => 'text'],
@@ -30,6 +32,7 @@ return [
     ],
     'achievements' => [
         'label' => 'Achievements',
+        'title_field' => 'title',
         'fields' => [
             'icon'  => ['label' => 'Icon (emoji)', 'type' => 'text'],
             'title' => ['label' => 'Title', 'type' => 'text', 'required' => true],
@@ -39,6 +42,7 @@ return [
     ],
     'education' => [
         'label' => 'Education',
+        'title_field' => 'degree',
         'fields' => [
             'badge'       => ['label' => 'Year / Range Badge', 'type' => 'text'],
             'degree'      => ['label' => 'Degree', 'type' => 'text', 'required' => true],
@@ -48,6 +52,7 @@ return [
     ],
     'experience' => [
         'label' => 'Experience',
+        'title_field' => 'role',
         'fields' => [
             'role'    => ['label' => 'Role / Position', 'type' => 'text', 'required' => true],
             'org'     => ['label' => 'Organization', 'type' => 'text'],
@@ -58,6 +63,7 @@ return [
     ],
     'projects' => [
         'label' => 'Projects',
+        'title_field' => 'title',
         'fields' => [
             'status'     => ['label' => 'Status', 'type' => 'select', 'options' => ['Active', 'Completed']],
             'title'      => ['label' => 'Title', 'type' => 'text', 'required' => true],
@@ -69,6 +75,7 @@ return [
     ],
     'certifications' => [
         'label' => 'Certifications',
+        'title_field' => 'name',
         'fields' => [
             'name'     => ['label' => 'Certificate Name', 'type' => 'text', 'required' => true],
             'org'      => ['label' => 'Issuing Organization', 'type' => 'text'],
@@ -78,6 +85,7 @@ return [
     ],
     'gallery' => [
         'label' => 'Gallery',
+        'title_field' => 'caption',
         'fields' => [
             'category'  => ['label' => 'Category', 'type' => 'select', 'options' => ['academic', 'research', 'conferences', 'teaching', 'events', 'personal']],
             'image_url' => ['label' => 'Image URL (image/ folder)', 'type' => 'text'],
@@ -86,6 +94,7 @@ return [
     ],
     'skills' => [
         'label' => 'Skills',
+        'title_field' => 'category',
         'fields' => [
             'category' => ['label' => 'Category Title', 'type' => 'text', 'required' => true],
             'tags'     => ['label' => 'Skills (comma separated)', 'type' => 'text'],
@@ -93,6 +102,7 @@ return [
     ],
     'teaching' => [
         'label' => 'Teaching',
+        'title_field' => 'title',
         'fields' => [
             'badge' => ['label' => 'Type Badge', 'type' => 'text'],
             'title' => ['label' => 'Title', 'type' => 'text', 'required' => true],

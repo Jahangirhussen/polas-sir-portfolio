@@ -20,7 +20,7 @@
 </div>
 
 <header class="navbar glass">
-  <div class="logo">Mohammad Rashed Hasan Polas</div>
+  <div class="logo" data-bind="site_name">Mohammad Rashed Hasan Polas</div>
   <nav id="navMenu">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
@@ -53,8 +53,8 @@
   <div class="container hero-grid">
     <div class="reveal is-visible">
       <div class="hero-eyebrow">Researcher · Educator · Developer</div>
-      <h1>Hi, I'm <span>Mohammad Rashed Hasan Polas</span><br>Building at the edge of AI & Research</h1>
-      <p>Short professional introduction goes here — research focus, academic interest, and what drives the work.</p>
+      <h1>Hi, I'm <span data-bind="site_name">Mohammad Rashed Hasan Polas</span><br><span data-bind="hero_heading">Building at the edge of AI & Research</span></h1>
+      <p data-bind="hero_subtitle">Short professional introduction goes here — research focus, academic interest, and what drives the work.</p>
       <div class="hero-actions">
         <a href="research.html" class="btn btn-primary">View Research</a>
         <a href="cv/cv.pdf" class="btn btn-ghost">Download CV</a>
@@ -109,10 +109,10 @@
       <h2>Research Statistics</h2>
     </div>
     <div class="stats-grid">
-      <div class="glass stat-card reveal"><div class="stat-number">06+</div><div class="stat-label">Publications</div></div>
-      <div class="glass stat-card reveal"><div class="stat-number">03</div><div class="stat-label">Conference Papers</div></div>
-      <div class="glass stat-card reveal"><div class="stat-number">01</div><div class="stat-label">Book Chapter</div></div>
-      <div class="glass stat-card reveal"><div class="stat-number">05+</div><div class="stat-label">Projects</div></div>
+      <div class="glass stat-card reveal"><div class="stat-number" data-bind="stat_publications">65+</div><div class="stat-label">Publications</div></div>
+      <div class="glass stat-card reveal"><div class="stat-number" data-bind="stat_citations">1,801</div><div class="stat-label">Citations</div></div>
+      <div class="glass stat-card reveal"><div class="stat-number" data-bind="stat_hindex">21</div><div class="stat-label">h-index</div></div>
+      <div class="glass stat-card reveal"><div class="stat-number" data-bind="stat_i10index">39</div><div class="stat-label">i10-index</div></div>
     </div>
   </div>
 </section>
@@ -131,10 +131,10 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-identity">
-        <div class="name">Prof. Dr. Mohammad Rashed Hasan Polas</div>
-        <div class="role">Professor & Researcher</div>
-        <div class="role">Asia Pacific University of Technology and Innovation (APU), Malaysia</div>
-        <p class="statement">Researching ideas that create meaningful academic and societal impact.</p>
+        <div class="name" data-bind="site_name">Prof. Dr. Mohammad Rashed Hasan Polas</div>
+        <div class="role" data-bind="tagline">Professor & Researcher</div>
+        <div class="role" data-bind="university">Asia Pacific University of Technology and Innovation (APU), Malaysia</div>
+        <p class="statement" data-bind="statement">Researching ideas that create meaningful academic and societal impact.</p>
       </div>
       <div class="footer-col">
         <h4>Explore</h4>
@@ -157,15 +157,15 @@
       <div class="footer-col">
         <h4>Connect</h4>
         <a href="contact.html">Contact</a>
-        <a href="https://scholar.google.com/citations?user=yGs2dsMAAAAJ&hl=en" target="_blank" rel="noopener" class="icon-link"><span data-icon="google-scholar" data-icon-size="15"></span>Google Scholar</a>
-        <a href="https://orcid.org/0000-0002-6080-1075" target="_blank" rel="noopener" class="icon-link"><span data-icon="orcid" data-icon-size="15"></span>ORCID</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="researchgate" data-icon-size="15"></span>ResearchGate</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="award" data-icon-size="15"></span>Scopus</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="flask-conical" data-icon-size="15"></span>Web of Science</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="linkedin" data-icon-size="15"></span>LinkedIn</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="github" data-icon-size="15"></span>GitHub</a>
-        <a href="#" target="_blank" rel="noopener" class="icon-link"><span data-icon="building" data-icon-size="15"></span>University Profile</a>
-        <a href="mailto:contact@example.com" class="icon-link"><span data-icon="mail" data-icon-size="15"></span>Email</a>
+        <a href="https://scholar.google.com/citations?user=yGs2dsMAAAAJ&hl=en" data-bind-href="scholar_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="google-scholar" data-icon-size="15"></span>Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-6080-1075" data-bind-href="orcid_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="orcid" data-icon-size="15"></span>ORCID</a>
+        <a href="#" data-bind-href="researchgate_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="researchgate" data-icon-size="15"></span>ResearchGate</a>
+        <a href="#" data-bind-href="scopus_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="award" data-icon-size="15"></span>Scopus</a>
+        <a href="#" data-bind-href="wos_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="flask-conical" data-icon-size="15"></span>Web of Science</a>
+        <a href="#" data-bind-href="linkedin_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="linkedin" data-icon-size="15"></span>LinkedIn</a>
+        <a href="#" data-bind-href="github_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="github" data-icon-size="15"></span>GitHub</a>
+        <a href="#" data-bind-href="university_profile_url" target="_blank" rel="noopener" class="icon-link"><span data-icon="building" data-icon-size="15"></span>University Profile</a>
+        <a href="mailto:contact@example.com" data-bind-mailto="email" class="icon-link"><span data-icon="mail" data-icon-size="15"></span>Email</a>
       </div>
     </div>
     <div class="footer-tags">
@@ -176,16 +176,17 @@
       <a href="research.html" class="tag">Business Analytics</a>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 Prof. Dr. Mohammad Rashed Hasan Polas. All rights reserved.</span>
+      <span>&copy; 2026 <span data-bind="site_name">Prof. Dr. Mohammad Rashed Hasan Polas</span>. All rights reserved.</span>
       <span><a href="#">Privacy</a><a href="#">Accessibility</a></span>
     </div>
   </div>
 </footer>
 
-<a href="mailto:contact@example.com" class="float-email" title="Email" data-icon="mail"></a>
+<a href="mailto:contact@example.com" data-bind-mailto="email" class="float-email" title="Email" data-icon="mail"></a>
 
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/siteSettings.js"></script>
 </body>
 </html>

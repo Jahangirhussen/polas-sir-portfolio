@@ -345,11 +345,12 @@
 }
 
 .cards-grid > * {
-  flex: 1 1 280px;
+  flex: 1 1 calc(33.333% - 15px);
   max-width: calc(33.333% - 15px);
 }
 
 .cards-grid.cols-2 > * {
+  flex-basis: calc(50% - 11px);
   max-width: calc(50% - 11px);
 }
 

@@ -42,6 +42,11 @@ foreach (array_keys($sections) as $key) {
     <p>Click a section to add, edit, or remove items shown on the live site.</p>
   </div>
 
+  <a href="settings.php" class="glass section-tile" style="display:block; margin-bottom:22px;">
+    <div class="label" style="font-size:16px; font-weight:600; color:var(--text-primary);">⚙ Site Settings</div>
+    <div class="label" style="margin-top:4px;">Name, contact, social links, hero text, and stats shown on every page</div>
+  </a>
+
   <div class="section-grid">
     <?php foreach ($sections as $key => $s): ?>
       <a href="manage.php?section=<?= urlencode($key) ?>" class="glass section-tile">

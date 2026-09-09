@@ -22,7 +22,7 @@ $stmt = $pdo->prepare('SELECT * FROM content_items WHERE section = ? ORDER BY so
 $stmt->execute([$section]);
 $items = $stmt->fetchAll();
 
-$titleField = array_key_first($config['fields']);
+$titleField = $config['title_field'] ?? array_key_first($config['fields']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
