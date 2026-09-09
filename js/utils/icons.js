@@ -41,8 +41,12 @@ function icon(name, size) {
   return svg.replace("<svg ", `<svg width="${px}" height="${px}" `);
 }
 
-document.querySelectorAll("[data-icon]").forEach((el) => {
-  const name = el.getAttribute("data-icon");
-  const size = el.getAttribute("data-icon-size");
-  el.innerHTML = icon(name, size ? parseInt(size, 10) : undefined);
-});
+function applyIcons(root) {
+  (root || document).querySelectorAll("[data-icon]").forEach((el) => {
+    const name = el.getAttribute("data-icon");
+    const size = el.getAttribute("data-icon-size");
+    el.innerHTML = icon(name, size ? parseInt(size, 10) : undefined);
+  });
+}
+
+applyIcons();

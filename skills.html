@@ -60,32 +60,7 @@
       </div>
     </div>
 
-    <div class="cards-grid stagger">
-      <div class="glass glass-card glass-tint-lavender reveal tilt">
-        <div class="card-title">Programming</div>
-        <div style="margin-top:10px;"><span class="tag">Python</span><span class="tag">C</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">JavaScript</span></div>
-      </div>
-      <div class="glass glass-card glass-tint-blue reveal tilt">
-        <div class="card-title">AI / ML</div>
-        <div style="margin-top:10px;"><span class="tag">TensorFlow</span><span class="tag">Keras</span><span class="tag">Scikit-learn</span></div>
-      </div>
-      <div class="glass glass-card glass-tint-cyan reveal tilt">
-        <div class="card-title">NLP</div>
-        <div style="margin-top:10px;"><span class="tag">Text Classification</span><span class="tag">TF-IDF</span><span class="tag">LIME</span></div>
-      </div>
-      <div class="glass glass-card glass-tint-pink reveal tilt">
-        <div class="card-title">Data Science</div>
-        <div style="margin-top:10px;"><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span></div>
-      </div>
-      <div class="glass glass-card glass-tint-peach reveal tilt">
-        <div class="card-title">Web Development</div>
-        <div style="margin-top:10px;"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">React</span></div>
-      </div>
-      <div class="glass glass-card glass-tint-lavender reveal tilt">
-        <div class="card-title">Tools</div>
-        <div style="margin-top:10px;"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Jupyter</span><span class="tag">VS Code</span></div>
-      </div>
-    </div>
+    <div class="cards-grid stagger" id="skillsList"></div>
   </div>
 </section>
 
@@ -148,5 +123,18 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+const skillTints = ["glass-tint-lavender", "glass-tint-blue", "glass-tint-cyan", "glass-tint-pink", "glass-tint-peach"];
+loadSection("skills", "skillsList", (s, i) => {
+  const tags = (s.tags || "").split(",").map(t => t.trim()).filter(Boolean)
+    .map(t => `<span class="tag">${t}</span>`).join("");
+  return `
+  <div class="glass glass-card ${skillTints[i % skillTints.length]} reveal tilt">
+    <div class="card-title">${s.category}</div>
+    ${tags ? `<div style="margin-top:10px;">${tags}</div>` : ""}
+  </div>`;
+}, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No skills added yet.</p>' });
+</script>
 </body>
 </html>

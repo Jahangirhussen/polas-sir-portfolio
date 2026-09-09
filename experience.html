@@ -50,33 +50,7 @@
       <p>Reverse chronological — current position first.</p>
     </div>
 
-    <div class="v-timeline">
-      <div class="v-timeline-item">
-        <div class="v-timeline-dot"></div>
-        <div class="glass employment-card reveal" style="transform:scale(1.02); border-color:var(--accent-primary);">
-          <div class="employment-rail" data-icon="briefcase" data-icon-size="20"></div>
-          <div>
-            <span class="status-pill" style="margin-bottom:8px; display:inline-block;">Current</span>
-            <div class="employment-role">Assistant Professor</div>
-            <div class="employment-org">Asia Pacific University of Technology and Innovation (APU), Malaysia</div>
-            <div class="employment-meta">July 2024 – Present</div>
-            <div class="employment-desc">Research in Green Entrepreneurship, Green Energy Technology, Environment & Sustainability, and Low Carbon Emissions.</div>
-          </div>
-        </div>
-      </div>
-      <div class="v-timeline-item">
-        <div class="v-timeline-dot"></div>
-        <div class="glass employment-card reveal">
-          <div class="employment-rail" data-icon="briefcase" data-icon-size="20"></div>
-          <div>
-            <div class="employment-role">Lecturer & Researcher</div>
-            <div class="employment-org">Sonargaon University</div>
-            <div class="employment-meta">January 2022 – June 2024</div>
-            <div class="employment-desc">Teaching, research supervision, and academic publication in the Department of Business Administration.</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="v-timeline" id="experienceList"></div>
   </div>
 </section>
 
@@ -139,5 +113,22 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("experience", "experienceList", (e) => `
+  <div class="v-timeline-item">
+    <div class="v-timeline-dot"></div>
+    <div class="glass employment-card reveal" ${e.current ? 'style="transform:scale(1.02); border-color:var(--accent-primary);"' : ""}>
+      <div class="employment-rail" data-icon="briefcase" data-icon-size="20"></div>
+      <div>
+        ${e.current ? '<span class="status-pill" style="margin-bottom:8px; display:inline-block;">Current</span>' : ""}
+        <div class="employment-role">${e.role}</div>
+        ${e.org ? `<div class="employment-org">${e.org}</div>` : ""}
+        ${e.meta ? `<div class="employment-meta">${e.meta}</div>` : ""}
+        ${e.desc ? `<div class="employment-desc">${e.desc}</div>` : ""}
+      </div>
+    </div>
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No experience entries added yet.</p>' });
+</script>
 </body>
 </html>

@@ -49,43 +49,7 @@
       <h2>Achievements & Awards</h2>
     </div>
 
-    <div class="cards-grid stagger">
-      <div class="glass achievement-card reveal tilt">
-        <div class="achievement-icon">🏆</div>
-        <div>
-          <div class="achievement-title">ICPC Preliminary Contest</div>
-          <div class="achievement-value">Rank placeholder / 2500</div>
-        </div>
-      </div>
-      <div class="glass achievement-card reveal tilt">
-        <div class="achievement-icon">💻</div>
-        <div>
-          <div class="achievement-title">LeetCode</div>
-          <div class="achievement-value">Rating placeholder</div>
-        </div>
-      </div>
-      <div class="glass achievement-card reveal tilt">
-        <div class="achievement-icon">⚡</div>
-        <div>
-          <div class="achievement-title">Codeforces</div>
-          <div class="achievement-value">Rating / Rank placeholder</div>
-        </div>
-      </div>
-      <div class="glass achievement-card reveal tilt">
-        <div class="achievement-icon">🎓</div>
-        <div>
-          <div class="achievement-title">Academic Achievement</div>
-          <div class="achievement-desc">Placeholder description.</div>
-        </div>
-      </div>
-      <div class="glass achievement-card reveal tilt">
-        <div class="achievement-icon">🔬</div>
-        <div>
-          <div class="achievement-title">Research Achievement</div>
-          <div class="achievement-desc">Placeholder description.</div>
-        </div>
-      </div>
-    </div>
+    <div class="cards-grid stagger" id="achievementsList"></div>
   </div>
 </section>
 
@@ -148,5 +112,17 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("achievements", "achievementsList", (a) => `
+  <div class="glass achievement-card reveal tilt">
+    <div class="achievement-icon">${a.icon || "🏆"}</div>
+    <div>
+      <div class="achievement-title">${a.title}</div>
+      ${a.value ? `<div class="achievement-value">${a.value}</div>` : ""}
+      ${a.desc ? `<div class="achievement-desc">${a.desc}</div>` : ""}
+    </div>
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No achievements added yet.</p>' });
+</script>
 </body>
 </html>

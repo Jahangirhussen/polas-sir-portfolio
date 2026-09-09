@@ -49,29 +49,7 @@
       <h2>Certificates & Training</h2>
     </div>
 
-    <div class="cards-grid stagger">
-      <div class="glass certification-card reveal tilt">
-        <div class="certification-badge">🎖️</div>
-        <div class="certification-name">Certificate Name Placeholder</div>
-        <div class="certification-org">Issuing Organization</div>
-        <div class="certification-meta">Date · Credential ID</div>
-        <div style="margin-top:14px;"><a href="#" class="btn btn-ghost">View Certificate</a></div>
-      </div>
-      <div class="glass certification-card reveal tilt">
-        <div class="certification-badge">🎖️</div>
-        <div class="certification-name">Certificate Name Placeholder</div>
-        <div class="certification-org">Issuing Organization</div>
-        <div class="certification-meta">Date · Credential ID</div>
-        <div style="margin-top:14px;"><a href="#" class="btn btn-ghost">View Certificate</a></div>
-      </div>
-      <div class="glass certification-card reveal tilt">
-        <div class="certification-badge">🎖️</div>
-        <div class="certification-name">Certificate Name Placeholder</div>
-        <div class="certification-org">Issuing Organization</div>
-        <div class="certification-meta">Date · Credential ID</div>
-        <div style="margin-top:14px;"><a href="#" class="btn btn-ghost">View Certificate</a></div>
-      </div>
-    </div>
+    <div class="cards-grid stagger" id="certificationsList"></div>
   </div>
 </section>
 
@@ -134,5 +112,16 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("certifications", "certificationsList", (c) => `
+  <div class="glass certification-card reveal tilt">
+    <div class="certification-badge">🎖️</div>
+    <div class="certification-name">${c.name}</div>
+    ${c.org ? `<div class="certification-org">${c.org}</div>` : ""}
+    ${c.meta ? `<div class="certification-meta">${c.meta}</div>` : ""}
+    ${c.link_url ? `<div style="margin-top:14px;"><a href="${c.link_url}" class="btn btn-ghost" target="_blank" rel="noopener">View Certificate</a></div>` : ""}
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No certifications added yet.</p>' });
+</script>
 </body>
 </html>

@@ -27,9 +27,16 @@ async function loadPublications(containerId, options = {}) {
   const container = document.getElementById(containerId);
   if (!container) return;
 
-  const res = await fetch("data/publications.json");
-  const data = await res.json();
-  let items = data.publications || [];
+  let items = [];
+  try {
+    const res = await fetch("api/data.php?section=publications");
+    if (!res.ok) throw new Error("api unavailable");
+    items = await res.json();
+  } catch (e) {
+    const fallback = await fetch("data/publications.json");
+    const data = await fallback.json();
+    items = data.publications || [];
+  }
 
   if (options.sortByYear) {
     items = [...items].sort((a, b) => (b.year || 0) - (a.year || 0));

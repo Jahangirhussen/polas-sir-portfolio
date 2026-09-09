@@ -18,8 +18,15 @@ function mediaCardHTML(item) {
 async function loadMedia(containerId) {
   const container = document.getElementById(containerId);
   if (!container) return;
-  const res = await fetch("data/media.json");
-  const items = await res.json();
+  let items = [];
+  try {
+    const res = await fetch("api/data.php?section=media");
+    if (!res.ok) throw new Error("api unavailable");
+    items = await res.json();
+  } catch (e) {
+    const fallback = await fetch("data/media.json");
+    items = await fallback.json();
+  }
   container.innerHTML = items.map(mediaCardHTML).join("");
 
   const observer = new IntersectionObserver(

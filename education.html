@@ -50,41 +50,7 @@
       <p>Degrees, institutions, and academic timeline.</p>
     </div>
 
-    <div class="v-timeline">
-      <div class="v-timeline-item">
-        <div class="v-timeline-dot"></div>
-        <div class="glass education-card reveal">
-          <div class="education-year-badge">2021<br>2025</div>
-          <div>
-            <div class="education-degree">Degree Placeholder</div>
-            <div class="education-institution">Institution Name</div>
-            <div class="education-meta">CGPA: X.XX/4.00</div>
-          </div>
-        </div>
-      </div>
-      <div class="v-timeline-item">
-        <div class="v-timeline-dot"></div>
-        <div class="glass education-card reveal">
-          <div class="education-year-badge">Year</div>
-          <div>
-            <div class="education-degree">Higher Secondary</div>
-            <div class="education-institution">Institution Name</div>
-            <div class="education-meta">Result</div>
-          </div>
-        </div>
-      </div>
-      <div class="v-timeline-item">
-        <div class="v-timeline-dot"></div>
-        <div class="glass education-card reveal">
-          <div class="education-year-badge">Year</div>
-          <div>
-            <div class="education-degree">Secondary</div>
-            <div class="education-institution">Institution Name</div>
-            <div class="education-meta">Result</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="v-timeline" id="educationList"></div>
   </div>
 </section>
 
@@ -147,5 +113,20 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("education", "educationList", (e) => `
+  <div class="v-timeline-item">
+    <div class="v-timeline-dot"></div>
+    <div class="glass education-card reveal">
+      <div class="education-year-badge">${e.badge || ""}</div>
+      <div>
+        <div class="education-degree">${e.degree}</div>
+        ${e.institution ? `<div class="education-institution">${e.institution}</div>` : ""}
+        ${e.meta ? `<div class="education-meta">${e.meta}</div>` : ""}
+      </div>
+    </div>
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No education entries added yet.</p>' });
+</script>
 </body>
 </html>

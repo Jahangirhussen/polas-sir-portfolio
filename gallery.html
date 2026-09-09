@@ -63,14 +63,7 @@
       <span class="tag filter-btn" data-filter="personal">Personal</span>
     </div>
 
-    <div class="gallery-grid" id="galleryGrid">
-      <div class="glass gallery-tile reveal tilt" data-category="academic">Academic Photo</div>
-      <div class="glass gallery-tile reveal tilt" data-category="research">Research Photo</div>
-      <div class="glass gallery-tile reveal tilt" data-category="conferences">Conference Photo</div>
-      <div class="glass gallery-tile reveal tilt" data-category="teaching">Teaching Photo</div>
-      <div class="glass gallery-tile reveal tilt" data-category="events">Event Photo</div>
-      <div class="glass gallery-tile reveal tilt" data-category="personal">Personal Photo</div>
-    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
   </div>
 </section>
 
@@ -133,7 +126,13 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
 <script>
+loadSection("gallery", "galleryGrid", (g) => `
+  <div class="glass gallery-tile reveal tilt" data-category="${g.category || ""}" ${g.image_url ? `style="background-image:url('${g.image_url}'); background-size:cover; background-position:center;"` : ""}>
+    <span style="background:rgba(0,0,0,0.35); padding:4px 10px; border-radius:8px; color:#fff;">${g.caption || g.category || ""}</span>
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted); grid-column:1/-1;">No photos added yet.</p>' });
+
 document.getElementById('galleryFilter').addEventListener('click', (e) => {
   const tag = e.target.closest('[data-filter]');
   if (!tag) return;

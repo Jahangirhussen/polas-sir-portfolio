@@ -65,24 +65,7 @@
       </div>
     </div>
 
-    <div class="cards-grid stagger">
-      <div class="glass teaching-card reveal tilt">
-        <span class="teaching-type-badge">Position</span>
-        <div class="teaching-title">Position Title</div>
-        <div class="teaching-org">Institution · Course/Subject</div>
-        <div class="teaching-desc">Duration · Responsibilities placeholder</div>
-      </div>
-      <div class="glass teaching-card reveal tilt">
-        <span class="teaching-type-badge">Workshop</span>
-        <div class="teaching-title">Workshop / Training</div>
-        <div class="teaching-desc">Placeholder workshop description.</div>
-      </div>
-      <div class="glass teaching-card reveal tilt">
-        <span class="teaching-type-badge">Mentoring</span>
-        <div class="teaching-title">Mentoring</div>
-        <div class="teaching-desc">Placeholder mentoring description.</div>
-      </div>
-    </div>
+    <div class="cards-grid stagger" id="teachingList"></div>
   </div>
 </section>
 
@@ -145,5 +128,15 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("teaching", "teachingList", (t) => `
+  <div class="glass teaching-card reveal tilt">
+    ${t.badge ? `<span class="teaching-type-badge">${t.badge}</span>` : ""}
+    <div class="teaching-title">${t.title}</div>
+    ${t.org ? `<div class="teaching-org">${t.org}</div>` : ""}
+    ${t.desc ? `<div class="teaching-desc">${t.desc}</div>` : ""}
+  </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No teaching items added yet.</p>' });
+</script>
 </body>
 </html>

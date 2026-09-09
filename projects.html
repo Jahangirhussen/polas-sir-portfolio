@@ -53,35 +53,7 @@
       <span class="tag">All</span><span class="tag">AI/ML</span><span class="tag">NLP</span><span class="tag">Web</span><span class="tag">Data Science</span>
     </div>
 
-    <div class="cards-grid stagger">
-      <div class="glass glass-card project-card reveal tilt">
-        <div class="project-thumb">01 · Project Image<span class="status-pill" style="position:absolute; top:14px; right:14px;">Active</span></div>
-        <div class="project-body">
-          <div class="card-title">Project Name Placeholder</div>
-          <div class="card-desc">Short project description placeholder.</div>
-          <div style="margin-top:10px;"><span class="tag">Python</span><span class="tag">TensorFlow</span></div>
-          <div class="project-links"><a href="#" class="btn btn-ghost">GitHub</a></div>
-        </div>
-      </div>
-      <div class="glass glass-card project-card reveal tilt">
-        <div class="project-thumb">02 · Project Image<span class="status-pill" style="position:absolute; top:14px; right:14px;">Completed</span></div>
-        <div class="project-body">
-          <div class="card-title">Project Name Placeholder</div>
-          <div class="card-desc">Short project description placeholder.</div>
-          <div style="margin-top:10px;"><span class="tag">React</span><span class="tag">Node.js</span></div>
-          <div class="project-links"><a href="#" class="btn btn-ghost">Live Demo</a></div>
-        </div>
-      </div>
-      <div class="glass glass-card project-card reveal tilt">
-        <div class="project-thumb">03 · Project Image<span class="status-pill" style="position:absolute; top:14px; right:14px;">Active</span></div>
-        <div class="project-body">
-          <div class="card-title">Project Name Placeholder</div>
-          <div class="card-desc">Short project description placeholder.</div>
-          <div style="margin-top:10px;"><span class="tag">NLP</span><span class="tag">LIME</span></div>
-          <div class="project-links"><a href="#" class="btn btn-ghost">GitHub</a></div>
-        </div>
-      </div>
-    </div>
+    <div class="cards-grid stagger" id="projectsList"></div>
   </div>
 </section>
 
@@ -144,5 +116,22 @@
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
+<script src="js/utils/dataApi.js"></script>
+<script>
+loadSection("projects", "projectsList", (p, i) => {
+  const tags = (p.tags || "").split(",").map(t => t.trim()).filter(Boolean)
+    .map(t => `<span class="tag">${t}</span>`).join("");
+  return `
+  <div class="glass glass-card project-card reveal tilt">
+    <div class="project-thumb">${String(i + 1).padStart(2, "0")} · ${p.title}<span class="status-pill" style="position:absolute; top:14px; right:14px;">${p.status || "Active"}</span></div>
+    <div class="project-body">
+      <div class="card-title">${p.title}</div>
+      ${p.desc ? `<div class="card-desc">${p.desc}</div>` : ""}
+      ${tags ? `<div style="margin-top:10px;">${tags}</div>` : ""}
+      ${p.link_url ? `<div class="project-links"><a href="${p.link_url}" class="btn btn-ghost" target="_blank" rel="noopener">${p.link_label || "View"}</a></div>` : ""}
+    </div>
+  </div>`;
+}, { emptyHTML: '<p style="text-align:center;color:var(--text-muted);">No projects added yet.</p>' });
+</script>
 </body>
 </html>
