@@ -116,7 +116,7 @@
 <script src="js/utils/dataApi.js"></script>
 <script>
 loadSection("certifications", "certificationsList", (c) => `
-  <div class="glass certification-card reveal tilt">
+  <div class="glass certification-card reveal tilt" data-item-id="${c._id}">
     <div class="certification-badge">🎖️</div>
     <div class="certification-name">${c.name}</div>
     ${c.org ? `<div class="certification-org">${c.org}</div>` : ""}

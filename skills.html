@@ -131,7 +131,7 @@ loadSection("skills", "skillsList", (s, i) => {
   const tags = (s.tags || "").split(",").map(t => t.trim()).filter(Boolean)
     .map(t => `<span class="tag">${t}</span>`).join("");
   return `
-  <div class="glass glass-card ${skillTints[i % skillTints.length]} reveal tilt">
+  <div class="glass glass-card ${skillTints[i % skillTints.length]} reveal tilt" data-item-id="${s._id}">
     <div class="card-title">${s.category}</div>
     ${tags ? `<div style="margin-top:10px;">${tags}</div>` : ""}
   </div>`;

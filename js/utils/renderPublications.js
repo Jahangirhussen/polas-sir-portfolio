@@ -5,7 +5,7 @@ function publicationCardHTML(pub) {
   const typeLabel = type === "book" ? "Book Chapter" : type.charAt(0).toUpperCase() + type.slice(1);
 
   return `
-  <div class="glass pub-card reveal" data-type="${type}">
+  <div class="glass pub-card reveal" data-item-id="${pub._id}" data-type="${type}">
     <div class="pub-year">
       <div class="card-icon-left" data-icon="file-text"></div>
       <div class="num">${year}</div>
@@ -88,5 +88,9 @@ async function loadPublications(containerId, options = {}) {
   const searchInput = document.getElementById("pubSearch");
   if (searchInput) {
     searchInput.addEventListener("input", applyFilters);
+  }
+
+  if (window.enableInlineAdmin) {
+    enableInlineAdmin("publications", containerId, () => loadPublications(containerId, options));
   }
 }

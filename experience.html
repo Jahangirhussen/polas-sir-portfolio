@@ -119,7 +119,7 @@
 loadSection("experience", "experienceList", (e) => `
   <div class="v-timeline-item">
     <div class="v-timeline-dot"></div>
-    <div class="glass employment-card reveal" ${e.current ? 'style="transform:scale(1.02); border-color:var(--accent-primary);"' : ""}>
+    <div class="glass employment-card reveal" data-item-id="${e._id}" ${e.current ? 'style="transform:scale(1.02); border-color:var(--accent-primary);"' : ""}>
       <div class="employment-rail" data-icon="briefcase" data-icon-size="20"></div>
       <div>
         ${e.current ? '<span class="status-pill" style="margin-bottom:8px; display:inline-block;">Current</span>' : ""}

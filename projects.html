@@ -123,7 +123,7 @@ loadSection("projects", "projectsList", (p, i) => {
   const tags = (p.tags || "").split(",").map(t => t.trim()).filter(Boolean)
     .map(t => `<span class="tag">${t}</span>`).join("");
   return `
-  <div class="glass glass-card project-card reveal tilt">
+  <div class="glass glass-card project-card reveal tilt" data-item-id="${p._id}">
     <div class="project-thumb">${String(i + 1).padStart(2, "0")} · ${p.title}<span class="status-pill" style="position:absolute; top:14px; right:14px;">${p.status || "Active"}</span></div>
     <div class="project-body">
       <div class="card-title">${p.title}</div>

@@ -88,7 +88,7 @@ return [
         'title_field' => 'caption',
         'fields' => [
             'category'  => ['label' => 'Category', 'type' => 'select', 'options' => ['academic', 'research', 'conferences', 'teaching', 'events', 'personal']],
-            'image_url' => ['label' => 'Image URL (image/ folder)', 'type' => 'text'],
+            'image_url' => ['label' => 'Photo', 'type' => 'image'],
             'caption'   => ['label' => 'Caption', 'type' => 'text'],
         ],
     ],

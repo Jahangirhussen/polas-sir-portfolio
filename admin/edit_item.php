@@ -96,6 +96,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <?php elseif ($field['type'] === 'textarea'): ?>
         <label class="form-label"><?= htmlspecialchars($field['label']) ?></label>
         <textarea name="<?= $key ?>" class="form-field" rows="4"><?= htmlspecialchars($val) ?></textarea>
+      <?php elseif ($field['type'] === 'image'): ?>
+        <label class="form-label"><?= htmlspecialchars($field['label']) ?></label>
+        <div class="image-upload-zone" data-target="<?= $key ?>" <?= $val ? "style=\"background-image:url('" . htmlspecialchars($val) . "')\"" : '' ?>>
+          <div class="image-upload-preview" <?= $val ? '' : 'hidden' ?> <?= $val ? "style=\"background-image:url('" . htmlspecialchars($val) . "')\"" : '' ?>></div>
+          <div class="image-upload-prompt" <?= $val ? 'hidden' : '' ?>>
+            <span>Drag & drop a photo, or click to browse</span>
+            <input type="file" accept="image/png,image/jpeg,image/webp,image/gif" class="image-upload-input" hidden>
+          </div>
+        </div>
+        <input type="text" name="<?= $key ?>" class="form-field image-url-field" placeholder="or paste an image URL" value="<?= htmlspecialchars($val) ?>">
       <?php else: ?>
         <label class="form-label"><?= htmlspecialchars($field['label']) ?><?= !empty($field['required']) ? ' *' : '' ?></label>
         <input type="<?= $field['type'] === 'number' ? 'number' : 'text' ?>" name="<?= $key ?>" class="form-field" value="<?= htmlspecialchars((string) $val) ?>">
@@ -106,5 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </form>
 </div>
 
+<script src="../js/utils/dataApi.js"></script>
+<script>wireImageFields(document);</script>
 </body>
 </html>

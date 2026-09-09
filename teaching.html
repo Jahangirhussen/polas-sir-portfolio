@@ -132,7 +132,7 @@
 <script src="js/utils/dataApi.js"></script>
 <script>
 loadSection("teaching", "teachingList", (t) => `
-  <div class="glass teaching-card reveal tilt">
+  <div class="glass teaching-card reveal tilt" data-item-id="${t._id}">
     ${t.badge ? `<span class="teaching-type-badge">${t.badge}</span>` : ""}
     <div class="teaching-title">${t.title}</div>
     ${t.org ? `<div class="teaching-org">${t.org}</div>` : ""}

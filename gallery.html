@@ -130,7 +130,7 @@
 <script src="js/utils/dataApi.js"></script>
 <script>
 loadSection("gallery", "galleryGrid", (g) => `
-  <div class="glass gallery-tile reveal tilt" data-category="${g.category || ""}" ${g.image_url ? `style="background-image:url('${g.image_url}'); background-size:cover; background-position:center;"` : ""}>
+  <div class="glass gallery-tile reveal tilt" data-item-id="${g._id}" data-category="${g.category || ""}" ${g.image_url ? `style="background-image:url('${g.image_url}'); background-size:cover; background-position:center;"` : ""}>
     <span style="background:rgba(0,0,0,0.35); padding:4px 10px; border-radius:8px; color:#fff;">${g.caption || g.category || ""}</span>
   </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted); grid-column:1/-1;">No photos added yet.</p>' });
 

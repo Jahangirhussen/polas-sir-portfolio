@@ -119,7 +119,7 @@
 loadSection("education", "educationList", (e) => `
   <div class="v-timeline-item">
     <div class="v-timeline-dot"></div>
-    <div class="glass education-card reveal">
+    <div class="glass education-card reveal" data-item-id="${e._id}">
       <div class="education-year-badge">${e.badge || ""}</div>
       <div>
         <div class="education-degree">${e.degree}</div>

@@ -116,7 +116,7 @@
 <script src="js/utils/dataApi.js"></script>
 <script>
 loadSection("achievements", "achievementsList", (a) => `
-  <div class="glass achievement-card reveal tilt">
+  <div class="glass achievement-card reveal tilt" data-item-id="${a._id}">
     <div class="achievement-icon">${a.icon || "🏆"}</div>
     <div>
       <div class="achievement-title">${a.title}</div>

@@ -1,7 +1,7 @@
 function mediaCardHTML(item) {
   const featuredClass = item.featured ? "featured" : "";
   return `
-  <div class="glass media-card ${featuredClass} reveal" data-type="${item.type.toLowerCase()}">
+  <div class="glass media-card ${featuredClass} reveal" data-item-id="${item._id}" data-type="${item.type.toLowerCase()}">
     <div class="media-image">
       ${item.featured ? "FEATURED" : item.type}
       <span class="glass media-arrow">↗</span>
@@ -48,5 +48,9 @@ async function loadMedia(containerId) {
         card.style.display = type === "all" || card.dataset.type === type ? "" : "none";
       });
     });
+  }
+
+  if (window.enableInlineAdmin) {
+    enableInlineAdmin("media", containerId, () => loadMedia(containerId));
   }
 }
