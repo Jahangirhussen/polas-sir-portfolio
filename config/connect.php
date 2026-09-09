@@ -9,13 +9,21 @@ if (!file_exists($configFile)) {
 
 $config = require $configFile;
 
-$dsn = "mysql:host={$config['host']};dbname={$config['dbname']};charset={$config['charset']}";
+$driver = $config['driver'] ?? 'mysql';
+$dsn = $driver === 'sqlite'
+    ? "sqlite:{$config['path']}"
+    : "mysql:host={$config['host']};dbname={$config['dbname']};charset={$config['charset']}";
 
 try {
-    $pdo = new PDO($dsn, $config['user'], $config['password'], [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-    ]);
+    $pdo = $driver === 'sqlite'
+        ? new PDO($dsn, null, null, [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        ])
+        : new PDO($dsn, $config['user'], $config['password'], [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+        ]);
 } catch (PDOException $e) {
     http_response_code(500);
     die('Database connection failed. Check config/db.php credentials.');
