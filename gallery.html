@@ -11,6 +11,10 @@
 <style>
 .gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
 .gallery-tile { aspect-ratio: 4/3; display: flex; align-items: flex-end; padding: 16px; background: linear-gradient(135deg, var(--tint-lavender), var(--tint-blue)); font-size: 13px; color: var(--text-secondary); cursor: pointer; }
+.lightbox-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.85); display: none; align-items: center; justify-content: center; z-index: 999; padding: 40px; cursor: zoom-out; }
+.lightbox-overlay.open { display: flex; }
+.lightbox-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 12px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+.lightbox-close { position: absolute; top: 24px; right: 32px; color: #fff; font-size: 32px; cursor: pointer; line-height: 1; }
 </style>
 </head>
 <body>
@@ -123,6 +127,11 @@
 </footer>
 <a href="mailto:rashedhasanpalash@gmail.com" data-bind-mailto="email" class="float-email" title="Email" data-icon="mail"></a>
 
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightboxImg" src="" alt="Gallery photo">
+</div>
+
 <script src="js/cursor-fx.js"></script>
 <script src="js/utils/icons.js"></script>
 <script src="js/main.js"></script>
@@ -130,7 +139,7 @@
 <script src="js/utils/dataApi.js"></script>
 <script>
 loadSection("gallery", "galleryGrid", (g) => `
-  <div class="glass gallery-tile reveal tilt" data-item-id="${g._id}" data-category="${g.category || ""}" ${g.image_url ? `style="background-image:url('${g.image_url}'); background-size:cover; background-position:center;"` : ""}>
+  <div class="glass gallery-tile reveal tilt" data-item-id="${g._id}" data-category="${g.category || ""}" data-full="${g.image_url || ""}" ${g.image_url ? `style="background-image:url('${g.image_url}'); background-size:cover; background-position:center;"` : ""}>
     <span style="background:rgba(0,0,0,0.35); padding:4px 10px; border-radius:8px; color:#fff;">${g.caption || g.category || ""}</span>
   </div>`, { emptyHTML: '<p style="text-align:center;color:var(--text-muted); grid-column:1/-1;">No photos added yet.</p>' });
 
@@ -143,6 +152,16 @@ document.getElementById('galleryFilter').addEventListener('click', (e) => {
   document.querySelectorAll('#galleryGrid [data-category]').forEach(tile => {
     tile.style.display = type === 'all' || tile.dataset.category === type ? '' : 'none';
   });
+});
+
+document.getElementById('galleryGrid').addEventListener('click', (e) => {
+  const tile = e.target.closest('.gallery-tile');
+  if (!tile || !tile.dataset.full) return;
+  document.getElementById('lightboxImg').src = tile.dataset.full;
+  document.getElementById('lightboxOverlay').classList.add('open');
+});
+document.getElementById('lightboxOverlay').addEventListener('click', () => {
+  document.getElementById('lightboxOverlay').classList.remove('open');
 });
 </script>
 </body>
