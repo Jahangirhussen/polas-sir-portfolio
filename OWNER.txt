@@ -1,0 +1,2 @@
+Owner: Mohammad Rashed Hasan Polas (Polas sir)
+Version: PHP dashboard (admin CRUD, live edit)
