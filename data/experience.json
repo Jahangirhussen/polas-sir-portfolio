@@ -1,0 +1,10 @@
+[
+  { "role": "Assistant Professor, Strategic Research Institute (SRI)", "org": "Asia Pacific University of Technology & Innovation, Kuala Lumpur, Malaysia", "meta": "August 18, 2025 – Present", "desc": "Research and teaching in strategy, entrepreneurship, innovation, and sustainability.", "current": true },
+  { "role": "Assistant Professor", "org": "Department of Business Administration, Sonargaon University (SU), Dhaka, Bangladesh", "meta": "December 26, 2024 – August 10, 2025", "desc": "", "current": false },
+  { "role": "Lecturer", "org": "Department of Business Administration, Sonargaon University (SU), Dhaka, Bangladesh", "meta": "January 2022 – December 2024", "desc": "", "current": false },
+  { "role": "Researcher", "org": "Center for Research Training & Consultancy (CRTC), Sonargaon University (SU), Dhaka, Bangladesh", "meta": "August 2022 – August 10, 2025", "desc": "", "current": false },
+  { "role": "External Researcher", "org": "Institute of Scientific Research and Graduate School, Universidad de Lima, Lima, Peru", "meta": "March 2021 – May 2022", "desc": "", "current": false },
+  { "role": "Academic Editor", "org": "PLOS ONE Journal (SCOPUS Q1 & WoS)", "meta": "July 2024 – Onward", "desc": "", "current": true },
+  { "role": "Editor", "org": "Discover Sustainability Journal (SCOPUS Q2 & WoS)", "meta": "July 2026 – Onward", "desc": "", "current": true },
+  { "role": "Associate Editor", "org": "Sonargaon University Journal (SUJ)", "meta": "August 2022 – Onward", "desc": "", "current": true }
+]
