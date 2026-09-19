@@ -1,8 +1,8 @@
 {
   "author": "Mohammad Rashed Hasan Polas, PhD",
   "metrics": {
-    "citations_all": 1832,
-    "citations_since_2021": 1733,
+    "citations_all": 1848,
+    "citations_since_2021": 1781,
     "h_index_all": 21,
     "h_index_since_2021": 21,
     "i10_index_all": 39,
@@ -45,6 +45,13 @@
     { "title": "Green Marketing as a Means of Green Purchase Intention among GEN Z: The Role of Attitude towards Green Environmental Sustainability", "authors": "Polas, M. R. H., Biswas, R., Yasmin, A., Anower, F., Neela, M. N. Y.", "venue": "5th International e-Conference on Business, Education and Entrepreneurship (ICBEE-2022), Kuala Lumpur, Malaysia, Aug 31, 2022", "year": 2022, "citations": 0, "type": "conference", "doi": "" },
     { "title": "Green IoT and Green Energy Technology towards Green Sustainable Smart SMEs in the 4.0IR Metaverse Era: Environmental Awareness in Greening the Future", "authors": "Polas, M. R. H., Ahamed, B., Sutradhar, A., Sumha, N. S.", "venue": "2nd International Conference on Business, Innovation and Social Sciences (ICBISS-2022), CCNUST, Bangladesh, Dec 3-4, 2022", "year": 2022, "citations": 0, "type": "conference", "doi": "" },
     { "title": "Eco-Friendly Entrepreneurship and Sustainable Green Environment: The Contribution of Green (Solar) Energy Technology to Green Innovation", "authors": "Polas, M. R. H., Ridwan, K., Muhib, M.", "venue": "International Conference on Sustainable Development: Opportunities and Challenges (AICSS), AIUB, Dhaka, Jan 12, 2022", "year": 2022, "citations": 0, "type": "conference", "doi": "" },
-    { "title": "Rural Women's Empowerment through Sustainable Entrepreneurial propensity in Bangladesh: From Perceived opportunity aspect", "authors": "Polas, M. R. H., Muhib, M., Sadekin, M. N.", "venue": "2nd GARA International e-Conference on Enriching e-Learning Management for Global Education (ICLMGE), Kuala Lumpur, Malaysia, Dec 12-13, 2020", "year": 2020, "citations": 0, "type": "conference", "doi": "" }
+    { "title": "Rural Women's Empowerment through Sustainable Entrepreneurial propensity in Bangladesh: From Perceived opportunity aspect", "authors": "Polas, M. R. H., Muhib, M., Sadekin, M. N.", "venue": "2nd GARA International e-Conference on Enriching e-Learning Management for Global Education (ICLMGE), Kuala Lumpur, Malaysia, Dec 12-13, 2020", "year": 2020, "citations": 0, "type": "conference", "doi": "" },
+    { "title": "When Financial Health Meets Social Responsibility? The Mediating Roles of Cash Holdings and Analyst Coverage in Corporate Philanthropy", "authors": "Hossain, M. I., Muhua, L., Al-Fakir Al Rabab'a, E., Polas, M. R. H., Hameed, U.", "venue": "SSRN Preprint, 2026", "year": 2026, "citations": 0, "type": "journal", "doi": "10.2139/ssrn.7152519" },
+    { "title": "AI Empowerment and Decision Intelligence: A Business Analytics Approach to Gen Z-Led SMEs", "authors": "Zerine, I., Islam, M. M., Doha, M. Z., Biswas, Y. A., Polas, M. R. H.", "venue": "Electronic Journal of Business and Management 11 (1), 2026", "year": 2026, "citations": 0, "type": "journal", "doi": "10.65136/ejbm.v11i1.230" },
+    { "title": "Bangla Suicidal Ideation Detection: Performance and Efficiency Benchmark of Simple and Complex Classifiers on Social Media Data", "authors": "Hussen, J., Polas, M. R. H., Mia, M. Y., Kohily, M., Halim, S., Hossen, I.", "venue": "Journal of Applied Technology and Innovation 9 (1), 2025", "year": 2025, "citations": 0, "type": "journal", "doi": "10.65136/jati.v9i1.27" },
+    { "title": "Rural Farmer's Willingness to Use AI in Agriculture in the Digital Transformative Era: The Mediating Role of Attitude and Risk-Taking Behavior", "authors": "Polas, M. R. H.", "venue": "6th International e-Conference on Business, Artificial Intelligence & Nano Technology (ICBAINT-2023)", "year": 2023, "citations": 0, "type": "conference", "doi": "" },
+    { "title": "Unlocking Cybersecurity Awareness among GEN Z in the Post-COVID Pandemic: The Mediating Role of Cybersecurity Attitude", "authors": "Polas, M. R. H.", "venue": "3rd IOU Conference on Research & Integrated Sciences (IOUCRIS-2023)", "year": 2023, "citations": 0, "type": "conference", "doi": "" },
+    { "title": "Green Marketing as a Means of Green Purchase Intention among GEN Z: The Role of Attitude towards Green Environmental Sustainability", "authors": "Polas, M. R. H.", "venue": "5th International e-Conference on Business, Education and Entrepreneurship (ICBEE, 2022)", "year": 2022, "citations": 0, "type": "conference", "doi": "" },
+    { "title": "Green Entrepreneurial Intention among Gen Z in Bangladesh: The Mediating Role of Self-Efficacy", "authors": "Polas, M. R. H.", "venue": "2nd IOU Conference on Research & Integrated Sciences (IOUCRIS-2022)", "year": 2022, "citations": 0, "type": "conference", "doi": "" }
   ]
 }
