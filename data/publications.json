@@ -1,8 +1,8 @@
 {
   "author": "Mohammad Rashed Hasan Polas (Jahangir Hussen)",
   "metrics": {
-    "citations_all": 1801,
-    "citations_since_2021": 1733,
+    "citations_all": 1848,
+    "citations_since_2021": 1781,
     "h_index_all": 21,
     "h_index_since_2021": 21,
     "i10_index_all": 39,
@@ -691,6 +691,64 @@
       "year": null,
       "citations": 0,
       "type": "journal"
+    },
+    {
+      "title": "AI Empowerment and Decision Intelligence: A Business Analytics Approach to Gen Z-Led SMEs",
+      "authors": "I Zerine, MM Islam, MZ Doha, YA Biswas, MRH Polas",
+      "venue": "Electronic Journal of Business and Management 11 (1), 2026",
+      "year": 2026,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.65136/ejbm.v11i1.230"
+    },
+    {
+      "title": "Bangla Suicidal Ideation Detection: Performance and Efficiency Benchmark of Simple and Complex Classifiers on Social Media Data",
+      "authors": "J Hussen, MRH Polas, MY Mia, M Kohily, S Halim, I Hossen",
+      "venue": "Journal of Applied Technology and Innovation 9 (1), 2025",
+      "year": 2025,
+      "citations": 0,
+      "type": "journal",
+      "doi": "10.65136/jati.v9i1.27"
+    },
+    {
+      "title": "Rural Farmer's Willingness to Use AI in Agriculture in the Digital Transformative Era: The Mediating Role of Attitude and Risk-Taking Behavior",
+      "authors": "MRH Polas",
+      "venue": "6th International e-Conference on Business, Artificial Intelligence & Nano Technology (ICBAINT-2023)",
+      "year": 2023,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "Unlocking Cybersecurity Awareness among GEN Z in the Post-COVID Pandemic: The Mediating Role of Cybersecurity Attitude",
+      "authors": "MRH Polas",
+      "venue": "3rd IOU Conference on Research & Integrated Sciences (IOUCRIS-2023)",
+      "year": 2023,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "Green IoT and Green Energy Technology towards Green Sustainable Smart SMEs in the 4.0IR Metaverse Era: Environmental Awareness in Greening the Future",
+      "authors": "MRH Polas",
+      "venue": "International Conference on Business, Innovation and Social Science (ICBISS-2022)",
+      "year": 2022,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "Green Marketing as a Means of Green Purchase Intention among GEN Z: The Role of Attitude towards Green Environmental Sustainability",
+      "authors": "MRH Polas",
+      "venue": "5th International e-Conference on Business, Education and Entrepreneurship (ICBEE, 2022)",
+      "year": 2022,
+      "citations": 0,
+      "type": "conference"
+    },
+    {
+      "title": "Green Entrepreneurial Intention among Gen Z in Bangladesh: The Mediating Role of Self-Efficacy",
+      "authors": "MRH Polas",
+      "venue": "2nd IOU Conference on Research & Integrated Sciences (IOUCRIS-2022)",
+      "year": 2022,
+      "citations": 0,
+      "type": "conference"
     }
   ],
   "coauthors": [
